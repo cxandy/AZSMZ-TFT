@@ -7,6 +7,8 @@
 ## http://bancuit.aliexpress.com 
 ## http://azsmz.aliexpress.com  
 
+![AZSMZ TFT](resources/AZSMZ-11.jpg)
+
 ## Install-Instructions:  ##
 https://github.com/cxandy/esp8266-weather-station-color/wiki/Install-Instructions    
 
@@ -15,8 +17,6 @@ https://github.com/cxandy/esp8266-weather-station-color/wiki/Install-Instruction
 
 ## Long press "Flash" button to enter web Configuration at running.  ##
 ## Short press "Flash" button to reset config In a few seconds after restart. ##
-
-![AZSMZ TFT](resources/AZSMZ-11.jpg)
 
 The image below For use DHT11:      
 ![AZSMZ TFT TOUCH](resources/DHT11-WIRE.jpg)
