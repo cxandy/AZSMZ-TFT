@@ -2,13 +2,11 @@
 
 ## 1. Download ESP8266Flasher ##
 
-   [ESP8266FLASH.zip](https://github.com/cxandy/esp8266-weather-station-color/tree/master/resources/ESP8266FLASH.zip)
+   [ESP8266FLASH.zip](/resources/ESP8266FLASH.zip)
 
 ## 2. Download Firmware  ##
 
-   [Firmware 20180118](https://github.com/cxandy/esp8266-weather-station-color/tree/master/resources/AZSMZ_TFT_20180118.bin)      
-   [Firmware 20180130](https://github.com/cxandy/esp8266-weather-station-color/blob/master/resources/AZSMZ-TFT-20180130.bin)    
-   [Firmware 20180425](https://github.com/cxandy/esp8266-weather-station-color/blob/master/resources/AZSMZ-TFT-20180425.bin)
+   [OpenWeatherMap 20180625](/weatherstation/OpenWeatherMap/release/OpenWeatherMap-20180625.bin)      
    
 ## 3. Start flash new Firmware. ##
   
