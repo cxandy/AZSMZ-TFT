@@ -156,10 +156,10 @@ boolean saveConfig() {
   f.println(WIFI_SSID);
   f.print("WIFI_PASS=");
   f.println(WIFI_PASS);
-  f.print("WUNDERGROUND_CITY=");
-  f.println(WUNDERGROUND_CITY);
-  f.print("WUNDERGROUND_COUNTRY=");
-  f.println(WUNDERGROUND_COUNTRY);
+  f.print("Weather_CITY=");
+  f.println(Weather_CITY);
+  f.print("Weather_COUNTRY=");
+  f.println(Weather_COUNTRY);
   f.print("WUNDERGRROUND_LANGUAGE=");
   f.println(WUNDERGRROUND_LANGUAGE);
   f.print("WUNDERGRROUND_API_KEY=");
@@ -207,10 +207,10 @@ boolean loadConfig() {
         WIFI_PASS = value;
       }
       if (key == "WUNDERGROUND_CITY") {
-        WUNDERGROUND_CITY = value;
+        Weather_CITY = value;
       }
       if (key == "WUNDERGROUND_COUNTRY") {
-        WUNDERGROUND_COUNTRY = value;
+        Weather_COUNTRY = value;
       }
       if (key == "WUNDERGRROUND_LANGUAGE") {
         WUNDERGRROUND_LANGUAGE = value;
@@ -273,8 +273,8 @@ void handleRoot() {
   page += FPSTR(HTTP_FORM_START);
   page += getFormField("ssid", "WiFi SSID", "20", WIFI_SSID, "");
   page += getFormField("password", "WiFi Password", "20", WIFI_PASS, "");
-  page += getFormField("wundergroundcity", "Wunderground City", "40", WUNDERGROUND_CITY, "");
-  page += getFormField("wundergroundstate", "Wunderground Country", "40", WUNDERGROUND_COUNTRY, "");
+  page += getFormField("wundergroundcity", "Weather City", "40", Weather_CITY, "");
+  page += getFormField("wundergroundstate", "Weather Country", "40", Weather_COUNTRY, "");
 
   server.sendContent(page); page = "";
   
@@ -418,8 +418,8 @@ void handleRoot() {
 void handleSave() {
   WIFI_SSID = server.arg("ssid");
   WIFI_PASS = server.arg("password");
-  WUNDERGROUND_CITY = server.arg("wundergroundcity");
-  WUNDERGROUND_COUNTRY = server.arg("wundergroundstate");
+  Weather_CITY = server.arg("wundergroundcity");
+  Weather_COUNTRY = server.arg("wundergroundstate");
   WUNDERGRROUND_LANGUAGE = server.arg("wundergroundlanguage");
 
   String apiKey = server.arg("wundergroundkey");
@@ -441,8 +441,8 @@ void handleSave() {
    
   Serial.println(WIFI_SSID);
   Serial.println(WIFI_PASS);
-  Serial.println(WUNDERGROUND_CITY);
-  Serial.println(WUNDERGROUND_COUNTRY);
+  Serial.println(Weather_CITY);
+  Serial.println(Weather_COUNTRY);
   Serial.println(WUNDERGRROUND_LANGUAGE);
 //  Serial.println(WUNDERGRROUND_API_KEY);
   Serial.println(SAVER_INTERVAL_SECS);

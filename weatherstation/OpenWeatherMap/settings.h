@@ -62,11 +62,11 @@ byte BOARD = AZSMZ_1_8;
 //String DISPLAYED_CITY_NAME = "Zürich";
 String WUNDERGRROUND_API_KEY = "7ac907535fc9a1ff";
 String WUNDERGRROUND_LANGUAGE = "EN";
-String WUNDERGROUND_COUNTRY = "CH";
-String WUNDERGROUND_CITY = "Zurich";
+String Weather_COUNTRY = "CH";
+String Weather_CITY = "Zurich";
 
 String OPEN_WEATHER_MAP_APP_ID = "6bdd4d9d45a97d690103477a4c67c38f";
-String OPEN_WEATHER_MAP_LOCATION = "Zurich,CH";
+// String OPEN_WEATHER_MAP_LOCATION = "Zurich,CH";
 String OPEN_WEATHER_MAP_LANGUAGE = "en";
 
 // Adjust according to your language
