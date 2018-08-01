@@ -6,7 +6,8 @@
 
 ## 2. Download Firmware  ##
 
-   [OpenWeatherMap 20180701](/weatherstation/OpenWeatherMap/release/OpenWeatherMap-20180701.bin)      
+   [OpenWeatherMap 20180701](/weatherstation/OpenWeatherMap/release/OpenWeatherMap-20180701.bin)  
+   [OpenWeatherMap 20180802](/weatherstation/OpenWeatherMap/release/OpenWeatherMap-20180802.bin)  
    
 ## 3. Start flash new Firmware. ##
   
