@@ -12,6 +12,21 @@
 ## Install-Instructions:  ##
 https://github.com/cxandy/esp8266-weather-station-color/wiki/Install-Instructions    
 
+pin config:
+TOUCH_CS = 5;
+TOUCH_IRQ = 4;
+BTN_1 = 0;
+ 
+Board Ver 1.6 - 1.8
+  TFT_DC = 0;
+  TFT_CS = 2;
+  SD_CS = 15;
+ 
+Board Ver 1.9
+  TFT_DC = 0;
+  TFT_CS = 15;
+  SD_CS = 2;
+
 ## Flash new firmware (so easy) ##
 [Follow me](resources/Flash.md)
 
