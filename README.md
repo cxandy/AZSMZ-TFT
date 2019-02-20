@@ -56,4 +56,4 @@ Please have a good look at the settings.h file. There you can:
  * Timezone and daytime saving options
  * API key
 
-
+https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MBDDEWLSL6KYL
